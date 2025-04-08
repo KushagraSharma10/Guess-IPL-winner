@@ -61,7 +61,7 @@ const iplTeams = [
     const winner = iplTeams[num]
     console.log(winner)
 
-    box.innerHTML = `${winner.teamName}`
+    box.innerHTML = winner.teamName
     box.style.backgroundColor = winner.primaryColor
     box.style.color = winner.secondaryColor
   })
